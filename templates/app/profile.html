@@ -1,0 +1,7 @@
+<h1><U>DISPLAY</U></h1>
+Full_Name: {{ request.session.full_name}}<br>
+Logged in user: {{ request.session.email }}<br>
+Gender: {{ request.session.gender }}<br>
+
+
+<button type="logout" value="logout"><a href="{% url 'logout' %}">Logout</a>
